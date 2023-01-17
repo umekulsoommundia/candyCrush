@@ -1,0 +1,27 @@
+body {
+    background: url("./img/bg2.webp") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#board {
+    width: 650px;
+    height: 650px;
+    background-color: #0b2031;
+    border: 8px solid #01304a;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 80px;
+    height: 80px;
+}
+.head{
+  font-size: 53px;
+  color: rgb(180, 210, 248);
+}
